@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(204, 204, 245);
+}
+
+.stopwatch {
+    text-align: center;
+   
+}
+
+#display {
+    font-size: 4em;
+    margin-bottom: 20px;
+    color:rgb(26, 26, 91);
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 2em;
+    cursor: pointer;
+    background-color: rgb(26, 26, 91);
+    color: #f0f0f0;
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: rgb(234, 234, 241); 
+    color:rgb(26, 26, 91);
+}
+
+#laps {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    color:rgb(26, 26, 91);
+    font-size: 2em;
+}
+
+.lap {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
